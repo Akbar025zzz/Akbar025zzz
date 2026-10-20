@@ -1,11 +1,26 @@
-# Hai, aku Akbar 👋
+# Akbar
 
-Selamat datang di profil GitHub-ku. Di sini aku berbagi berbagai proyek, eksperimen, dan hal-hal yang sedang kupelajari.
+**Pengembang UI Roblox · Lua/Luau**
+
+Saya membuat pustaka antarmuka untuk Roblox dengan komponen yang dapat dikonfigurasi, tema, dan dukungan layar sentuh.
+
+## Proyek pilihan
+
+[**Akbar_ui**](https://github.com/Akbar025zzz/Akbar_ui) — Pustaka UI Roblox/Luau dengan komponen, tema, dukungan mobile, dokumentasi, dan lisensi MIT.
 
 ## Statistik GitHub
 
-![Statistik GitHub Akbar](./github-metrics.svg)
+<details>
+<summary>Buka statistik, bahasa, dan kalender kontribusi</summary>
+
+![Ringkasan GitHub](./github-metrics.svg)
+
+![Bahasa pemrograman](./metrics.languages.svg)
+
+![Kalender kontribusi](./metrics.calendar.svg)
+
+</details>
 
 ---
 
-*Statistik diperbarui otomatis setiap hari menggunakan [Metrics](https://github.com/lowlighter/metrics).*
+[Semua repositori](https://github.com/Akbar025zzz?tab=repositories)
