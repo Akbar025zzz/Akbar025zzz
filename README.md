@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-banner-3d.gif" alt="Banner animasi 3D antarmuka digital biru" width="100%" />
+  <img src="./assets/profile-banner.gif" alt="Langit malam pixel-art dengan sosok berjubah dan kota bercahaya" width="100%" />
 </p>
 
 <h1 align="center">Akbar</h1>
