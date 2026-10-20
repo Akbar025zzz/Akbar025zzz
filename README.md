@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-banner.jpg" alt="Banner antarmuka digital bernuansa biru" width="100%" />
+  <img src="./assets/profile-banner-3d.gif" alt="Banner animasi 3D antarmuka digital biru" width="100%" />
 </p>
 
 <h1 align="center">Akbar</h1>
