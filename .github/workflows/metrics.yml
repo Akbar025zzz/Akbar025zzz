@@ -33,16 +33,3 @@ jobs:
           base: ""
           plugin_isocalendar: yes
           config_timezone: Asia/Jakarta
-
-      - name: Generate WakaTime coding activity
-        uses: lowlighter/metrics@v3.34
-        with:
-          token: NOT_NEEDED
-          user: ${{ github.repository_owner }}
-          filename: metrics.wakatime.svg
-          base: ""
-          plugin_wakatime: yes
-          plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
-          plugin_wakatime_days: 30
-          plugin_wakatime_sections: time, languages-graphs
-          plugin_wakatime_repositories_visibility: public
