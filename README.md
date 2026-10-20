@@ -10,12 +10,6 @@
   </a>
 </p>
 
-## Waktu coding (WakaTime)
-
-<p align="center">
-  <img src="./metrics.wakatime.svg" alt="Total waktu coding dan grafik aktivitas bahasa selama 30 hari terakhir" width="100%" />
-</p>
-
 ## Statistik kontribusi
 
 <p align="center">
