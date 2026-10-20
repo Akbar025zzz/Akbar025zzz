@@ -22,17 +22,17 @@
 
 ## Tentang
 
-Saya mengerjakan dua hal yang saling melengkapi: antarmuka di dalam Roblox dengan Luau, dan aplikasi web dengan Next.js serta Node.js. Fokus saya ada di detail yang jarang diperhatikan orang lain — komponen yang konsisten, dokumentasi yang bisa langsung dipakai, dan kode yang tetap mudah dirawat setelah proyeknya membesar.
+Saya mengerjakan dua hal yang saling melengkapi: antarmuka di dalam Roblox dengan Luau, dan aplikasi web dengan Next.js serta Node.js. Fokus saya ada di hal yang sering dilewatkan orang lain, yaitu komponen yang perilakunya konsisten, dokumentasi yang bisa langsung dipakai, dan kode yang tetap enak dirawat setelah proyeknya membesar.
 
-Setiap proyek di bawah ini saya tulis sendiri dari nol, lengkap dengan dokumentasi penggunaan, contoh kode, dan catatan arsitekturnya.
+Dua proyek di bawah ini saya bangun dari nol, lengkap dengan dokumentasi penggunaan, contoh kode, dan catatan arsitekturnya.
 
 ## Proyek pilihan
 
-### KingAkbarUI Speedhub — pustaka UI Roblox
+### [KingAkbarUI Speedhub](https://github.com/Akbar025zzz/kingAkbarUi-Speedhub) — pustaka UI Roblox
 
-Pustaka antarmuka Luau bergaya gelap modern untuk script hub dan tool, nyaman dipakai di PC maupun HP. Versi 1.7 sudah menyertakan 11 komponen siap pakai: Button, Toggle, Slider, Input, Dropdown, Keybind, ColorPicker, Panel, Paragraph, Seperator, dan Line. Ditambah kotak pengelompok Section, GroupBox, dan TabBox, notifikasi, badge topbar, pencarian tab, profil pemain, serta tema dan font yang bisa diganti.
+Pustaka antarmuka Luau bergaya gelap modern untuk script hub dan tool, nyaman dipakai di PC maupun HP. Versi 1.7 menyertakan 11 komponen siap pakai: Button, Toggle, Slider, Input, Dropdown, Keybind, ColorPicker, Panel, Paragraph, Seperator, dan Line, ditambah kotak pengelompok Section, GroupBox, serta TabBox.
 
-Window-nya menyesuaikan ukuran layar, bisa digeser, punya tombol floating dan hotkey untuk tampil atau sembunyi. Setiap komponen menerima dua gaya penulisan — berurutan atau bernama — jadi penulisannya bisa dipilih sesuai selera. Pustaka juga aman dijalankan berulang kali karena UI lama otomatis dibersihkan.
+Window-nya menyesuaikan ukuran layar, bisa digeser, dan punya tombol floating serta hotkey untuk tampil atau sembunyi. Tersedia notifikasi, badge topbar, pencarian tab, profil pemain, serta tema dan font yang bisa diganti. Setiap komponen menerima dua gaya penulisan, jadi bisa dipilih sesuai selera, dan pustaka ini aman dijalankan berulang kali karena UI lama dibersihkan otomatis.
 
 ```lua
 local Lib = loadstring(game:HttpGet(
@@ -56,18 +56,29 @@ Lib:SetNotification({ "King Akbar", "Loaded", "Script berhasil dimuat" })
   <img src="https://img.shields.io/badge/dokumentasi-lengkap-8A2BE2?style=for-the-badge" alt="Dokumentasi lengkap" />
 </p>
 
-### Nobar King Akbar Anime — streaming anime dan nonton bareng
+### [Nobar King Akbar Anime](https://github.com/Akbar025zzz/nobar-king-akbar-anime) — streaming anime dan nonton bareng
 
-Aplikasi web untuk katalog anime sub Indo dan menonton bareng secara realtime. Host membuat room, mengatur pemutaran, dan semua peserta mengikuti otomatis dengan toleransi selisih 1,6 detik. Di dalam room tersedia obrolan langsung dengan riwayat 100 pesan terakhir, daftar peserta berbadge host, room publik atau privat, serta tautan undangan yang bisa disalin.
+Aplikasi web untuk katalog anime sub Indo dan menonton bareng secara realtime. Host mengendalikan pemutaran, semua peserta mengikuti dengan toleransi selisih 1,6 detik, dan obrolan room berjalan langsung dengan riwayat 100 pesan terakhir.
 
-Selain anime, ada seksi Film dan Series yang mengambil metadata langsung dari TMDb dalam bahasa Indonesia: Film Indonesia, film populer, drakor, dan dracin, lengkap dengan pemilih musim, daftar episode, dan trailer. Pemutarnya memilih server tercepat lewat rantai resolver, memutar HLS dengan hls.js, dan memulihkan error secara otomatis. Pengguna punya akun dengan sesi cookie HttpOnly, token yang di-hash, rate limit anti brute-force, favorit, serta riwayat tontonan yang bisa dilanjutkan dari profil.
+<p align="center">
+  <a href="https://github.com/Akbar025zzz/nobar-king-akbar-anime">
+    <img src="https://raw.githubusercontent.com/Akbar025zzz/nobar-king-akbar-anime/main/docs/screenshots/01-home.png" alt="Beranda Nobar King Akbar Anime dengan room yang sedang berjalan" width="100%" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Akbar025zzz/nobar-king-akbar-anime/main/docs/screenshots/19-room-play-host.png" alt="Room nobar dengan pemutaran tersinkron, daftar peserta, dan obrolan" width="49%" />
+  <img src="https://raw.githubusercontent.com/Akbar025zzz/nobar-king-akbar-anime/main/docs/screenshots/23-film-detail.png" alt="Halaman detail film dengan metadata TMDb dan daftar pemain" width="49%" />
+</p>
+
+Selain anime, ada seksi Film dan Series yang mengambil metadata langsung dari TMDb dalam bahasa Indonesia: Film Indonesia, film populer, drakor, dan dracin, lengkap dengan pemilih musim, daftar episode, dan trailer. Pemutarnya memilih server tercepat lewat rantai resolver, memutar HLS dengan hls.js, dan memulihkan error otomatis. Pengguna memiliki akun dengan sesi cookie HttpOnly, token yang di-hash, rate limit anti brute-force, favorit, serta riwayat tontonan yang bisa dilanjutkan dari profil. Seluruh antarmuka berbahasa Indonesia, responsif di ponsel, dan dibungkus Docker.
 
 <p>
+  <a href="https://github.com/Akbar025zzz/nobar-king-akbar-anime"><img src="https://img.shields.io/badge/Lihat%20repositori-181717?style=for-the-badge&logo=github&logoColor=white" alt="Lihat repositori Nobar King Akbar Anime" /></a>
   <img src="https://img.shields.io/badge/Next.js_15-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js 15" />
   <img src="https://img.shields.io/badge/React_19-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React 19" />
   <img src="https://img.shields.io/badge/Socket.IO_4-010101?style=for-the-badge&logo=socketdotio&logoColor=white" alt="Socket.IO 4" />
   <img src="https://img.shields.io/badge/PostgreSQL_16-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL 16" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
 </p>
 
 ## Aktivitas GitHub
