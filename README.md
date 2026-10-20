@@ -90,10 +90,10 @@ Selain anime, ada seksi Film dan Series yang mengambil metadata langsung dari TM
 </p>
 
 <p align="center">
-  <a href="https://github.com/Akbar025zzz?tab=repositories">
-    <img src="./metrics.languages.svg" alt="Bahasa pemrograman yang paling sering digunakan Akbar" width="480" />
-  </a>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Akbar025zzz&layout=compact&langs_count=8&theme=tokyonight" alt="Bahasa pemrograman yang paling sering digunakan Akbar" width="480" />
 </p>
+
+<p align="center"><sub>Kartu bahasa oleh <a href="https://github.com/anuraghazra/github-readme-stats">github-readme-stats</a>.</sub></p>
 
 <p align="center">
   <a href="https://github.com/Akbar025zzz">
