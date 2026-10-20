@@ -1,0 +1,30 @@
+name: Update GitHub Metrics
+
+on:
+  schedule:
+    - cron: "0 1 * * *" # Setiap hari pukul 08.00 WIB
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate GitHub metrics
+        uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: ${{ github.repository_owner }}
+          filename: github-metrics.svg
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Jakarta
+          plugin_isocalendar: yes
+          plugin_languages: yes
+          plugin_languages_sections: most-used
+          plugin_languages_details: percentage, bytes-size
+          plugin_languages_limit: 8
