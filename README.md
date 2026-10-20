@@ -2,6 +2,14 @@
   <img src="./assets/profile-banner.gif" alt="Langit malam pixel-art dengan sosok berjubah dan kota bercahaya" width="100%" />
 </p>
 
+## Bahasa pemrograman yang paling sering dipakai
+
+<p align="center">
+  <a href="https://github.com/Akbar025zzz?tab=repositories">
+    <img src="./metrics.languages.svg" alt="Bahasa pemrograman yang paling sering digunakan Akbar" width="480" />
+  </a>
+</p>
+
 ## Statistik kontribusi
 
 <p align="center">
