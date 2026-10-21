@@ -81,12 +81,12 @@ Selain anime, ada seksi Film dan Series yang mengambil metadata langsung dari TM
   <img src="https://img.shields.io/badge/PostgreSQL_16-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL 16" />
 </p>
 
-### [Akbar Video Demo](https://github.com/Akbar025zzz/video-demo) — tooling perekam walkthrough web
+### [Akbar Video Demo](https://github.com/Akbar025zzz/akbar-video-demo) — tooling perekam walkthrough web
 
-Skill lokal berbasis Playwright untuk merekam alur aplikasi web dengan fokus dan zoom terarah, lalu menyimpan MP4 serta screenshot. Saya memelihara dan menyesuaikan fork MIT ini; voice-over lokal bersifat opsional.
+Skill lokal berbasis Playwright untuk merekam alur aplikasi web dengan fokus dan zoom terarah, lalu menyimpan MP4 serta screenshot. Saya mengemas dan memelihara versi mandiri ini; kode turunan MIT beserta notis lisensinya tetap dipertahankan. Voice-over lokal bersifat opsional.
 
 <p>
-  <a href="https://github.com/Akbar025zzz/video-demo"><img src="https://img.shields.io/badge/Lihat%20proyek-181717?style=for-the-badge&logo=github&logoColor=white" alt="Lihat proyek Akbar Video Demo" /></a>
+  <a href="https://github.com/Akbar025zzz/akbar-video-demo"><img src="https://img.shields.io/badge/Lihat%20proyek-181717?style=for-the-badge&logo=github&logoColor=white" alt="Lihat proyek Akbar Video Demo" /></a>
   <img src="https://img.shields.io/badge/Playwright-browser%20automation-2EAD33?style=for-the-badge&logo=playwright&logoColor=white" alt="Playwright" />
   <img src="https://img.shields.io/badge/Output-MP4-2563EB?style=for-the-badge" alt="Output video MP4" />
 </p>
