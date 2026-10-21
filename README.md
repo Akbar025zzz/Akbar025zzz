@@ -24,7 +24,7 @@
 
 Saya mengerjakan dua hal yang saling melengkapi: antarmuka di dalam Roblox dengan Luau, dan aplikasi web dengan Next.js serta Node.js. Fokus saya ada di hal yang sering dilewatkan orang lain, yaitu komponen yang perilakunya konsisten, dokumentasi yang bisa langsung dipakai, dan kode yang tetap enak dirawat setelah proyeknya membesar.
 
-Dua proyek di bawah ini saya bangun dari nol, lengkap dengan dokumentasi penggunaan, contoh kode, dan catatan arsitekturnya.
+Di bawah ini saya tampilkan dua aplikasi yang saya bangun sendiri serta tooling yang saya pelihara untuk merekam demo web.
 
 ## Proyek pilihan
 
@@ -79,6 +79,16 @@ Selain anime, ada seksi Film dan Series yang mengambil metadata langsung dari TM
   <img src="https://img.shields.io/badge/React_19-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React 19" />
   <img src="https://img.shields.io/badge/Socket.IO_4-010101?style=for-the-badge&logo=socketdotio&logoColor=white" alt="Socket.IO 4" />
   <img src="https://img.shields.io/badge/PostgreSQL_16-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL 16" />
+</p>
+
+### [Akbar Video Demo](https://github.com/Akbar025zzz/video-demo) — tooling perekam walkthrough web
+
+Skill lokal berbasis Playwright untuk merekam alur aplikasi web dengan fokus dan zoom terarah, lalu menyimpan MP4 serta screenshot. Saya memelihara dan menyesuaikan fork MIT ini; voice-over lokal bersifat opsional.
+
+<p>
+  <a href="https://github.com/Akbar025zzz/video-demo"><img src="https://img.shields.io/badge/Lihat%20proyek-181717?style=for-the-badge&logo=github&logoColor=white" alt="Lihat proyek Akbar Video Demo" /></a>
+  <img src="https://img.shields.io/badge/Playwright-browser%20automation-2EAD33?style=for-the-badge&logo=playwright&logoColor=white" alt="Playwright" />
+  <img src="https://img.shields.io/badge/Output-MP4-2563EB?style=for-the-badge" alt="Output video MP4" />
 </p>
 
 ## Aktivitas GitHub
