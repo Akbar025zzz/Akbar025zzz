@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-banner.gif" alt="Senja pixel-art di gurun futuristik dengan pengelana dan observatorium bercahaya" width="100%" />
+  <img src="./assets/profile-banner.gif" alt="Langit malam pixel-art dengan sosok berjubah dan kota bercahaya" width="100%" />
 </p>
 
 <h1 align="center">Akbar</h1>
